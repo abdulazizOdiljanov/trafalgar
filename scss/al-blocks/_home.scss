@@ -1,0 +1,20 @@
+.home__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .texts {
+        max-width: 450px;
+        .main__text {
+            font-size: 48px;
+            font-weight: 700;
+        }
+        .text {
+            padding: 25px 0 45px 0;
+            color: #7D7987;
+            font-size: 18px;
+        }
+    }
+    .img {
+        width: 593px;
+    }
+}

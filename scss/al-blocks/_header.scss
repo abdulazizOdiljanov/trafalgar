@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+
+    ul {
+        display: flex;
+        list-style-type: none;
+
+        li {
+            margin: 0 20px;
+            color: #1F1534;
+            opacity: 0.5;
+
+            &:nth-child(1) {
+                color: #000;
+                opacity: 1;
+            }
+        }
+    }
+}
