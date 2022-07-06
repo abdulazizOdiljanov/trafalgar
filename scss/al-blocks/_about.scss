@@ -1,0 +1,35 @@
+.about__section {
+    margin-top: 162px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .img {
+        width: 650px;
+        margin-right: 100px;
+    }
+
+    .main__text {
+        font-weight: 700;
+        font-size: 36px;
+    }
+    hr {
+        height: 2px;
+        border: 1px solid #000;
+        width: 56px;
+        background-color: #000;
+        border-radius: 20px;
+        margin: 26px 0 31px 0;
+    }
+
+    .text {
+        color: #7D7987;
+    }
+    .btn {
+        margin-top: 40px;
+        color: #458ff6;
+        &:hover {
+            color: #fff;
+        }
+    }
+}

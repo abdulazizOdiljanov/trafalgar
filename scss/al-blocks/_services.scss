@@ -43,4 +43,10 @@
             }
         }
     }
+    .btn {
+        color: #458ff6;
+        &:hover {
+            color: #fff;
+        }
+    }
 }
